@@ -1,0 +1,50 @@
+:root {
+    --primaria: #282C33;
+    --secundaria: #ABB2BF;
+    --terciaria: #C778DD;
+    --branco: #FFF;
+    --fonte: 'Fira Code', monospace;
+}
+
+body {
+    background-color: var(--primaria);
+    color: var(--branco);
+}
+
+* {
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+
+/* HEADER */
+.esq {
+   position: fixed;
+} 
+
+.linha {
+    height: 150px;
+    color: var(--branco);
+    border-left: solid;
+    align-self: center;
+}
+
+.cabecalho {
+    width: auto;
+    display: flex;
+    padding: 2em 1em 1em 4em;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.div_logo{
+    gap: 8px;
+}
+
+
+
+
