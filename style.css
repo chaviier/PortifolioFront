@@ -24,6 +24,7 @@ body {
 /* HEADER */
 .esq {
    position: fixed;
+   padding-left: 20px;
 } 
 
 .linha {
@@ -36,7 +37,7 @@ body {
 .cabecalho {
     width: auto;
     display: flex;
-    padding: 2em 1em 1em 4em;
+    padding: 2em 1em 1em 7em;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -44,6 +45,82 @@ body {
 .div_logo{
     gap: 8px;
 }
+
+.taghax {
+    color: var(--terciaria);
+}
+
+.nav_header {
+    color: var(--branco);
+    text-decoration: none;
+    font-family: var(--fonte);
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.nav_header:hover {
+    opacity: 1;
+}
+
+.logo_header {
+    font-weight: 700;
+    font-family: var(--fonte);
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(left ,var(--branco), var(--primaria));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* MAIN */
+
+.det_roxo {
+    color: var(--terciaria);
+}
+
+.text_main {
+    color: var(--branco);
+    text-transform: uppercase;
+    font-family: var(--fonte);
+    font-weight: 600;
+}
+
+.parag_main {
+    font-family: var(--fonte);
+    color: #ABB2BF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn_cv {
+    border: 1px solid var(--terciaria);
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--fonte);
+    color: var(--branco);
+}
+
+.text_img {
+    color: var(--secundaria);
+}
+
+/* MAIN PROJECTS */
+
+.txt_project {
+    font-family: var(--fonte);
+    font-weight: 500;
+}
+
+.line_projects {
+    align-self: center;
+    height: 1px;
+    border: 1px solid var(--terciaria);
+    margin-left: 60px;
+}
+
+
 
 
 
