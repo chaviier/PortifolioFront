@@ -1,9 +1,12 @@
+
+
 :root {
     --primaria: #282C33;
     --secundaria: #ABB2BF;
     --terciaria: #C778DD;
     --branco: #FFF;
     --fonte: 'Fira Code', monospace;
+    --gradiant: -webkit-linear-gradient(left ,var(--primaria), var(--terciaria));
 }
 
 body {
@@ -108,6 +111,14 @@ body {
 
 /* MAIN PROJECTS */
 
+.container_project {
+    margin: 6rem 0;
+}
+
+.container_item_project {
+    margin: 4rem 0;
+}
+
 .txt_project {
     font-family: var(--fonte);
     font-weight: 500;
@@ -117,7 +128,68 @@ body {
     align-self: center;
     height: 1px;
     border: 1px solid var(--terciaria);
-    margin-left: 60px;
+    margin: 5px 2rem 0px 2rem;
+}
+
+.item_card_project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_card_project {
+    color: var(--branco);
+    font-family: var(--fonte);
+    font-weight: 500;
+    font-size: 24px;
+    align-self: center;
+}
+
+.card-body-project {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card_container_project {
+    border: 1px solid var(--secundaria);
+    background-color: transparent;
+    font-family: var(--fonte);
+    color: var(--secundaria);
+    
+}
+
+
+.item__1 {
+    background-color: transparent;
+    border: 1px solid var(--secundaria);
+    color: var(--branco);
+}
+
+.progress_bar {
+    background-color: var(--secundaria);
+}
+
+.card-btn-project {
+    border: 1px solid var(--terciaria);
+    color: var(--branco);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: var(--fonte);
+    padding: 8px 10px;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: center;
+}
+
+/* SKILLS */
+.container_skill {
+    display: grid;
+    grid-template-areas: 
+    "a b";
 }
 
 
